@@ -1,9 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from '../src/components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello ds catalog</h1>
+    <>
+      <Navbar />
+    </>
   );
 }
 
